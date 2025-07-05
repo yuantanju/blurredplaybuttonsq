@@ -25,7 +25,7 @@
   </div>
 
   <div id="floatingComments"></div>
-  <button id="floatingCTA"> </button>
+  <button id="floatingCTA"></button>
 
   <div id="overlay">
     <button id="closeOverlay">✖</button>
@@ -42,6 +42,24 @@
 
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script src="script.js"></script>
+  
+  <!-- Disable right click, F12, Ctrl+U etc. -->
+  <script>
+    // Disable right click
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    // Disable F12, Ctrl+Shift+I/J/C, Ctrl+U
+    document.addEventListener('keydown', e => {
+      if (e.key === "F12") {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.key === 'U') {
+        e.preventDefault();
+      }
+    });
+  </script>
 </body>
 </html>
-
