@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ATABS ROOM 18+</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="modal">
+    <h2>ATABS ROOM 18+</h2>
+    <p>You must share in 3 groups to be approved</p>
+    <div class="video-container" id="videoContainer">
+      <img src="https://i.ibb.co/Qq47T6j/IMG-5347.jpg" alt="Video Thumbnail" class="video-thumbnail" id="videoThumbnail">
+      <div class="live-badge">LIVE</div>
+      <div class="viewer-count" id="viewerCount">🔴 458 viewers</div>
+      <div class="play-button">▶</div>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <button class="share-button" id="shareButton">SHARE <span id="shareCount">(0/3)</span> 🔒</button>
+    <button class="enter-button" id="enterButton" disabled>🔞 ENTER ATABS ROOM 🔓</button>
+    <div id="message"></div>
+  </div>
+
+  <div id="floatingComments"></div>
+  <button id="floatingCTA"> </button>
+
+  <div id="overlay">
+    <button id="closeOverlay">✖</button>
+    <h3>You must share to 3 groups to join the live stream.</h3>
+    <button id="overlayShare" class="share-button">SHARE NOW <span id="overlayShareCount">(0/3)</span> 🔒</button>
+  </div>
+
+  <div id="congratsOverlay">
+    <h1>🎉 Congratulations!</h1>
+    <p>You have unlocked the ATABS Room!</p>
+  </div>
+
+  <canvas id="confettiCanvas" style="position:fixed;top:0;left:0;pointer-events:none;z-index:999;"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
