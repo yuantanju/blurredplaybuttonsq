@@ -47,8 +47,8 @@ commentIndex++;
 }
 },3000);
 
-function shareAction(){
-window.open("https://t.me/share/url?url=𝗙𝗿𝗲𝗲%20𝗽𝗮𝘀𝗼𝗸%20𝗴𝘂𝘆𝘀!%20%F0%9F%91%89%20https%3A%2F%2Ft.me%2Ffreeat4bzchannelbot%3Fstartapp%3DWatchNow`);
+function shareAction() {
+window.open(`https://t.me/share/url?url=𝗙𝗿𝗲𝗲%20𝗽𝗮𝘀𝗼𝗸%20𝗴𝘂𝘆𝘀!%20%F0%9F%91%89%20https%3A%2F%2Ft.me%2Ffreeat4bzchannelbot%3Fstartapp%3DWatchNow`);
 message.textContent='Share to proceed.';
 setTimeout(()=>{
 shareCount++;
