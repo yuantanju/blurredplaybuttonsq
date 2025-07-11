@@ -70,7 +70,7 @@ window.location.href='https://t.me/addlist/Lztmt92Gokg4NTZl';
 });
 floatingCTA.addEventListener('click',()=>{
 if(shareCount>=totalShares){
-window.location.href='https://t.me/addlist/Lztmt92Gokg4NTZl';
+window.location.href='http://t.me/+z7yCiBtE09ZiNDA1';
 }
 });
 videoContainer.addEventListener('click',()=>{overlay.style.display='flex';});
