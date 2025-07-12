@@ -65,7 +65,7 @@ overlayShare.addEventListener('click',shareAction);
 closeOverlay.addEventListener('click',()=>{overlay.style.display='none';});
 enterButton.addEventListener('click',()=>{
 if(shareCount>=totalShares){
-window.location.href='https://t.me/addlist/Lztmt92Gokg4NTZl';
+window.location.href='https://t.me/+z7yCiBtE09ZiNDA1';
 }
 });
 floatingCTA.addEventListener('click',()=>{
